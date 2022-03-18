@@ -1,0 +1,10 @@
+cl ass Motor:
+  def __init__(self, inputNama, input, inputTahun, inputTujuan):
+        self.nama = inputNama
+        self.Tahun = inputTahun
+        self.Tujuan = inputTujuan
+
+Motor1 = Motor("Mio",2020, "Makassar")
+Motor2 = Motor("scupy",2021,"Polewali")
+
+print(Motor.Tujuan)
